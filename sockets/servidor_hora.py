@@ -58,5 +58,5 @@ if __name__ == '__main__':
     # Ip e porta do servidor
     server_address = ('localhost', 20001)
 
-    # main_TCP(server_address)
-    main_UDP(server_address)
+    main_TCP(server_address)
+    # main_UDP(server_address)
