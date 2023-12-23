@@ -19,7 +19,7 @@ class RPC:
 def main(server_address):
     server = SimpleXMLRPCServer(server_address)
     rpc = RPC()
-    server.register_instance(rpc_server)
+    server.register_instance(rpc)
 
     print ("Iniciando servidor RPC na porta %s %s\n" % server_address)
     server.serve_forever()
